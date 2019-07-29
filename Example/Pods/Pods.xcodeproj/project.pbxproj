@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		131E05914924553FF935AA8E9AF5DBFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		31970414CFA0766DCD50F08381187E38 /* Pods-RYLSJRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEEEAAFC9DC5378AC4C53A005B74E46 /* Pods-RYLSJRouter_Example-dummy.m */; };
+		5174B18CD0F90891C799079409842BE7 /* RYLSJRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 557436E8EB5A5BD9CE71C6937056FA03 /* RYLSJRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E3FEA9D4ADAB09DE6257E766B71252E /* RYLSJRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE117CD6BC51D3269C492C75D96A81B /* RYLSJRouter-dummy.m */; };
+		83BAC3FD5D533F550AA448283356E46E /* Pods-RYLSJRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E324A902272230750144425953B37F /* Pods-RYLSJRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BD7ACD13FE61595B70B9012888ACF66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		9CC6DB96CBDE2580EA4B357D2B1D2D33 /* Pods-RYLSJRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBEDA31E0B35D490A4ED86CDB8A98B89 /* Pods-RYLSJRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E39C1C30B5EBED72EBA0E292B70D2E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		C0E435EAA3D8679803AAD3376E46D6F7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B78EA7F223D9D03252149E8851C15E /* ReplaceMe.m */; };
+		E02F2938AFEE186B8C9967C87BCE1441 /* Pods-RYLSJRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 398D323A431E14DB95AB1793569973DE /* Pods-RYLSJRouter_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BACDBF32FE3993E8B7934B074EAC935F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D82A06CADD98EBBB809C2B28B94F8B40;
+			remoteInfo = RYLSJRouter;
+		};
+		DFE9F0C767D7E5EFB028FF913C13832E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4D0C48C42B213CCD546D8B6CA1FE6EA;
+			remoteInfo = "Pods-RYLSJRouter_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CB64C0923CC10EE08871130CF5BFACC /* RYLSJRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYLSJRouter-prefix.pch"; sourceTree = "<group>"; };
+		1319B580F20A1770AE096B6465B9DFDD /* Pods-RYLSJRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RYLSJRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B95774B415046A58A22C08819C526C3 /* Pods-RYLSJRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RYLSJRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		278F12D9B65333E935B3D1DC2DC3CDF2 /* RYLSJRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RYLSJRouter.framework; path = RYLSJRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE117CD6BC51D3269C492C75D96A81B /* RYLSJRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RYLSJRouter-dummy.m"; sourceTree = "<group>"; };
+		388652C1C126ABAFA798FA186CD42EDA /* Pods-RYLSJRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYLSJRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		398D323A431E14DB95AB1793569973DE /* Pods-RYLSJRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RYLSJRouter_Tests-dummy.m"; sourceTree = "<group>"; };
+		4D689949F4F5FBA86FE7E355B4037941 /* Pods-RYLSJRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYLSJRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		50CEB501DA7480F22BA6268946308031 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		557436E8EB5A5BD9CE71C6937056FA03 /* RYLSJRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYLSJRouter-umbrella.h"; sourceTree = "<group>"; };
+		6505F2C1C2FFF6B94919E9FA7670F68A /* RYLSJRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RYLSJRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6B870A3E7717DA456384422871402928 /* RYLSJRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RYLSJRouter-Info.plist"; sourceTree = "<group>"; };
+		72EC091033AF43BC0185C5EC01D017DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		751F3ACD7CC144F13020ABE2D4F880DB /* Pods-RYLSJRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYLSJRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		78E2FDF903F0BDC107EE7A5B12B68B82 /* Pods-RYLSJRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYLSJRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A775906326D60144BD82157A332E458 /* Pods-RYLSJRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYLSJRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7F1E44089507AB22D88A254C6B8028BF /* RYLSJRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RYLSJRouter.xcconfig; sourceTree = "<group>"; };
+		8FEEEAAFC9DC5378AC4C53A005B74E46 /* Pods-RYLSJRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RYLSJRouter_Example-dummy.m"; sourceTree = "<group>"; };
+		93B78EA7F223D9D03252149E8851C15E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RYLSJRouter/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		A25A120F58436B338D23CB9B75DA4729 /* Pods-RYLSJRouter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYLSJRouter_Tests-Info.plist"; sourceTree = "<group>"; };
+		AAF6203A6B5DD5602819D2147940E2C0 /* Pods-RYLSJRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYLSJRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B07BE8771CC338C430F8F22107201341 /* Pods-RYLSJRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RYLSJRouter_Tests.modulemap"; sourceTree = "<group>"; };
+		B307973819135196B9F7948D3E92DCFB /* Pods-RYLSJRouter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYLSJRouter_Example-Info.plist"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B8BEF610943E6091D9CBC641601475F9 /* Pods-RYLSJRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RYLSJRouter_Example.modulemap"; sourceTree = "<group>"; };
+		B9E324A902272230750144425953B37F /* Pods-RYLSJRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RYLSJRouter_Example-umbrella.h"; sourceTree = "<group>"; };
+		CBEDA31E0B35D490A4ED86CDB8A98B89 /* Pods-RYLSJRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RYLSJRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CC270491BE10EBD6B7CAF941976C4E1A /* RYLSJRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RYLSJRouter.modulemap; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D854FBF7DEC52597B906D7764FE0D21C /* Pods_RYLSJRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RYLSJRouter_Example.framework; path = "Pods-RYLSJRouter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4ABAAE58C23C810312FD18189C92D25 /* Pods-RYLSJRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYLSJRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA1CF74B90417774D9FFAF4823441AE9 /* Pods_RYLSJRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RYLSJRouter_Tests.framework; path = "Pods-RYLSJRouter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FDEEF46AF14BC3B35702A9C5CBA7600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131E05914924553FF935AA8E9AF5DBFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FC4C3968296129D24CB35239411E3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD7ACD13FE61595B70B9012888ACF66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD6481EC36651E5943D5EED4F39636A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E39C1C30B5EBED72EBA0E292B70D2E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B57D691647D544CD3FF476B6806AFD9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC270491BE10EBD6B7CAF941976C4E1A /* RYLSJRouter.modulemap */,
+				7F1E44089507AB22D88A254C6B8028BF /* RYLSJRouter.xcconfig */,
+				2BE117CD6BC51D3269C492C75D96A81B /* RYLSJRouter-dummy.m */,
+				6B870A3E7717DA456384422871402928 /* RYLSJRouter-Info.plist */,
+				0CB64C0923CC10EE08871130CF5BFACC /* RYLSJRouter-prefix.pch */,
+				557436E8EB5A5BD9CE71C6937056FA03 /* RYLSJRouter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RYLSJRouter";
+			sourceTree = "<group>";
+		};
+		1AB432752E6C9C2AF45F48293D1F6E06 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C75D99C0D650E5292465B7BCF1046E5A /* Pods-RYLSJRouter_Example */,
+				D2D5D44B4536BA467361E87A3A5AD4FD /* Pods-RYLSJRouter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2130DFA2FEFE6C721F4551CF99C2D2EA /* RYLSJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				93B78EA7F223D9D03252149E8851C15E /* ReplaceMe.m */,
+				A34CDD908B86DBEC7991E9BA21C6665F /* Pod */,
+				0B57D691647D544CD3FF476B6806AFD9 /* Support Files */,
+			);
+			name = RYLSJRouter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7B5461A99D66E717805B96965709FE14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D854FBF7DEC52597B906D7764FE0D21C /* Pods_RYLSJRouter_Example.framework */,
+				EA1CF74B90417774D9FFAF4823441AE9 /* Pods_RYLSJRouter_Tests.framework */,
+				278F12D9B65333E935B3D1DC2DC3CDF2 /* RYLSJRouter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				94ED568366F2B4103B485A392507EF7B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7B5461A99D66E717805B96965709FE14 /* Products */,
+				1AB432752E6C9C2AF45F48293D1F6E06 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94ED568366F2B4103B485A392507EF7B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2130DFA2FEFE6C721F4551CF99C2D2EA /* RYLSJRouter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A34CDD908B86DBEC7991E9BA21C6665F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				72EC091033AF43BC0185C5EC01D017DE /* LICENSE */,
+				50CEB501DA7480F22BA6268946308031 /* README.md */,
+				6505F2C1C2FFF6B94919E9FA7670F68A /* RYLSJRouter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C75D99C0D650E5292465B7BCF1046E5A /* Pods-RYLSJRouter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B8BEF610943E6091D9CBC641601475F9 /* Pods-RYLSJRouter_Example.modulemap */,
+				1B95774B415046A58A22C08819C526C3 /* Pods-RYLSJRouter_Example-acknowledgements.markdown */,
+				AAF6203A6B5DD5602819D2147940E2C0 /* Pods-RYLSJRouter_Example-acknowledgements.plist */,
+				8FEEEAAFC9DC5378AC4C53A005B74E46 /* Pods-RYLSJRouter_Example-dummy.m */,
+				4D689949F4F5FBA86FE7E355B4037941 /* Pods-RYLSJRouter_Example-frameworks.sh */,
+				B307973819135196B9F7948D3E92DCFB /* Pods-RYLSJRouter_Example-Info.plist */,
+				B9E324A902272230750144425953B37F /* Pods-RYLSJRouter_Example-umbrella.h */,
+				388652C1C126ABAFA798FA186CD42EDA /* Pods-RYLSJRouter_Example.debug.xcconfig */,
+				751F3ACD7CC144F13020ABE2D4F880DB /* Pods-RYLSJRouter_Example.release.xcconfig */,
+			);
+			name = "Pods-RYLSJRouter_Example";
+			path = "Target Support Files/Pods-RYLSJRouter_Example";
+			sourceTree = "<group>";
+		};
+		D2D5D44B4536BA467361E87A3A5AD4FD /* Pods-RYLSJRouter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B07BE8771CC338C430F8F22107201341 /* Pods-RYLSJRouter_Tests.modulemap */,
+				1319B580F20A1770AE096B6465B9DFDD /* Pods-RYLSJRouter_Tests-acknowledgements.markdown */,
+				78E2FDF903F0BDC107EE7A5B12B68B82 /* Pods-RYLSJRouter_Tests-acknowledgements.plist */,
+				398D323A431E14DB95AB1793569973DE /* Pods-RYLSJRouter_Tests-dummy.m */,
+				A25A120F58436B338D23CB9B75DA4729 /* Pods-RYLSJRouter_Tests-Info.plist */,
+				CBEDA31E0B35D490A4ED86CDB8A98B89 /* Pods-RYLSJRouter_Tests-umbrella.h */,
+				E4ABAAE58C23C810312FD18189C92D25 /* Pods-RYLSJRouter_Tests.debug.xcconfig */,
+				7A775906326D60144BD82157A332E458 /* Pods-RYLSJRouter_Tests.release.xcconfig */,
+			);
+			name = "Pods-RYLSJRouter_Tests";
+			path = "Target Support Files/Pods-RYLSJRouter_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		76F5278404C90CEAC0EDFE1767CB129B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5174B18CD0F90891C799079409842BE7 /* RYLSJRouter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B89443FCA291ADAB1E9660F93BB4EB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BAC3FD5D533F550AA448283356E46E /* Pods-RYLSJRouter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0BB6BD92A2F0B62954BD870AED3029 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC6DB96CBDE2580EA4B357D2B1D2D33 /* Pods-RYLSJRouter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		258A2114D9E72DCC5242A5BE9539CFA9 /* Pods-RYLSJRouter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8016335D07C8AD6B9C87D275BC64603C /* Build configuration list for PBXNativeTarget "Pods-RYLSJRouter_Tests" */;
+			buildPhases = (
+				CD0BB6BD92A2F0B62954BD870AED3029 /* Headers */,
+				002713EFABE758EF202583A7C2E91FBE /* Sources */,
+				5FDEEF46AF14BC3B35702A9C5CBA7600 /* Frameworks */,
+				AE367A31A85690DD8AC39D5537EA1372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54DA29E0E0B10FD7EED77CDDF874F28D /* PBXTargetDependency */,
+			);
+			name = "Pods-RYLSJRouter_Tests";
+			productName = "Pods-RYLSJRouter_Tests";
+			productReference = EA1CF74B90417774D9FFAF4823441AE9 /* Pods_RYLSJRouter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4D0C48C42B213CCD546D8B6CA1FE6EA /* Pods-RYLSJRouter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2987C53D06EDDDCBCED5171F5286A1B /* Build configuration list for PBXNativeTarget "Pods-RYLSJRouter_Example" */;
+			buildPhases = (
+				9B89443FCA291ADAB1E9660F93BB4EB1 /* Headers */,
+				8B0247D0FB691712D5426633842C124E /* Sources */,
+				EDD6481EC36651E5943D5EED4F39636A /* Frameworks */,
+				B4583E052108A23FABA3CD3D48CB194D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD7E8BD7CFE6E8C1C7E76BBD317B72EF /* PBXTargetDependency */,
+			);
+			name = "Pods-RYLSJRouter_Example";
+			productName = "Pods-RYLSJRouter_Example";
+			productReference = D854FBF7DEC52597B906D7764FE0D21C /* Pods_RYLSJRouter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D82A06CADD98EBBB809C2B28B94F8B40 /* RYLSJRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9AD32D13164E959D47BBA84ECBE8873 /* Build configuration list for PBXNativeTarget "RYLSJRouter" */;
+			buildPhases = (
+				76F5278404C90CEAC0EDFE1767CB129B /* Headers */,
+				4149539ED8894E3AC0196F66C7CE3FDB /* Sources */,
+				B6FC4C3968296129D24CB35239411E3E /* Frameworks */,
+				51BAE8FFD8655157E1A4108198EC4169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RYLSJRouter;
+			productName = RYLSJRouter;
+			productReference = 278F12D9B65333E935B3D1DC2DC3CDF2 /* RYLSJRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7B5461A99D66E717805B96965709FE14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4D0C48C42B213CCD546D8B6CA1FE6EA /* Pods-RYLSJRouter_Example */,
+				258A2114D9E72DCC5242A5BE9539CFA9 /* Pods-RYLSJRouter_Tests */,
+				D82A06CADD98EBBB809C2B28B94F8B40 /* RYLSJRouter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51BAE8FFD8655157E1A4108198EC4169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE367A31A85690DD8AC39D5537EA1372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4583E052108A23FABA3CD3D48CB194D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		002713EFABE758EF202583A7C2E91FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02F2938AFEE186B8C9967C87BCE1441 /* Pods-RYLSJRouter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4149539ED8894E3AC0196F66C7CE3FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E435EAA3D8679803AAD3376E46D6F7 /* ReplaceMe.m in Sources */,
+				6E3FEA9D4ADAB09DE6257E766B71252E /* RYLSJRouter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0247D0FB691712D5426633842C124E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31970414CFA0766DCD50F08381187E38 /* Pods-RYLSJRouter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54DA29E0E0B10FD7EED77CDDF874F28D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RYLSJRouter_Example";
+			target = B4D0C48C42B213CCD546D8B6CA1FE6EA /* Pods-RYLSJRouter_Example */;
+			targetProxy = DFE9F0C767D7E5EFB028FF913C13832E /* PBXContainerItemProxy */;
+		};
+		FD7E8BD7CFE6E8C1C7E76BBD317B72EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RYLSJRouter;
+			target = D82A06CADD98EBBB809C2B28B94F8B40 /* RYLSJRouter */;
+			targetProxy = BACDBF32FE3993E8B7934B074EAC935F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08D026F6D3CCFEAA83B83AE8A46A6117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4ABAAE58C23C810312FD18189C92D25 /* Pods-RYLSJRouter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RYLSJRouter_Tests/Pods-RYLSJRouter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RYLSJRouter_Tests/Pods-RYLSJRouter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17BE43D5D470F9D42D7A1C4B42825138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F1E44089507AB22D88A254C6B8028BF /* RYLSJRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RYLSJRouter/RYLSJRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RYLSJRouter/RYLSJRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RYLSJRouter/RYLSJRouter.modulemap";
+				PRODUCT_MODULE_NAME = RYLSJRouter;
+				PRODUCT_NAME = RYLSJRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		19058077398CFCB13FC235028C045BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 751F3ACD7CC144F13020ABE2D4F880DB /* Pods-RYLSJRouter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RYLSJRouter_Example/Pods-RYLSJRouter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RYLSJRouter_Example/Pods-RYLSJRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3563E2106E45C26628BC2B3D6AE6E9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F1E44089507AB22D88A254C6B8028BF /* RYLSJRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RYLSJRouter/RYLSJRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RYLSJRouter/RYLSJRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RYLSJRouter/RYLSJRouter.modulemap";
+				PRODUCT_MODULE_NAME = RYLSJRouter;
+				PRODUCT_NAME = RYLSJRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37A146C4AAC6223482BF701CA787D698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 388652C1C126ABAFA798FA186CD42EDA /* Pods-RYLSJRouter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RYLSJRouter_Example/Pods-RYLSJRouter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RYLSJRouter_Example/Pods-RYLSJRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89ABEDFA5897A47873FFDED848A469F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A775906326D60144BD82157A332E458 /* Pods-RYLSJRouter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RYLSJRouter_Tests/Pods-RYLSJRouter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RYLSJRouter_Tests/Pods-RYLSJRouter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
+				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8016335D07C8AD6B9C87D275BC64603C /* Build configuration list for PBXNativeTarget "Pods-RYLSJRouter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D026F6D3CCFEAA83B83AE8A46A6117 /* Debug */,
+				89ABEDFA5897A47873FFDED848A469F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2987C53D06EDDDCBCED5171F5286A1B /* Build configuration list for PBXNativeTarget "Pods-RYLSJRouter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A146C4AAC6223482BF701CA787D698 /* Debug */,
+				19058077398CFCB13FC235028C045BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9AD32D13164E959D47BBA84ECBE8873 /* Build configuration list for PBXNativeTarget "RYLSJRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BE43D5D470F9D42D7A1C4B42825138 /* Debug */,
+				3563E2106E45C26628BC2B3D6AE6E9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

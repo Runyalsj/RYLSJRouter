@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2025D097FF5A3658FB4FFD7A /* RYLSJRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RYLSJRouter.podspec; path = ../RYLSJRouter.podspec; sourceTree = "<group>"; };
+		2025D097FF5A3658FB4FFD7A /* RYLSJRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RYLSJRouter.podspec; path = ../RYLSJRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		437A33A2582E05BCD83EB167 /* Pods-RYLSJRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYLSJRouter_Example.debug.xcconfig"; path = "Target Support Files/Pods-RYLSJRouter_Example/Pods-RYLSJRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		50A589302467EECAFD546082 /* Pods_RYLSJRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYLSJRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* RYLSJRouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYLSJRouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,8 +64,8 @@
 		828B998939D498C4C26C593C /* Pods-RYLSJRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYLSJRouter_Example.release.xcconfig"; path = "Target Support Files/Pods-RYLSJRouter_Example/Pods-RYLSJRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B19FFB0C0CE9227857DB84D2 /* Pods-RYLSJRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYLSJRouter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RYLSJRouter_Tests/Pods-RYLSJRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B3FA6936E862E944A93238F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B513D8FF37E2A74448BAC0B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B3FA6936E862E944A93238F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B513D8FF37E2A74448BAC0B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C0955EEAA5EA0813F88D75C4 /* Pods_RYLSJRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYLSJRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				B19FFB0C0CE9227857DB84D2 /* Pods-RYLSJRouter_Tests.debug.xcconfig */,
 				70558CB3EA4A8EBF170E854E /* Pods-RYLSJRouter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

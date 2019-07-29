@@ -1,0 +1,6 @@
+framework module GDKit_Router {
+  umbrella header "GDKit_Router.h"
+
+  export *
+  module * { export * }
+}

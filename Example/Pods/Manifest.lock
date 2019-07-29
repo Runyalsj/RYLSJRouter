@@ -1,0 +1,16 @@
+PODS:
+  - RYLSJRouter (0.1.0)
+
+DEPENDENCIES:
+  - RYLSJRouter (from `../`)
+
+EXTERNAL SOURCES:
+  RYLSJRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RYLSJRouter: f9bdb7650241faa6770525fdcd74f42b5429ced5
+
+PODFILE CHECKSUM: 2a5a0fa7afc1d7b4bdc5d3082cdeab5bfe80de05
+
+COCOAPODS: 1.6.0.beta.2

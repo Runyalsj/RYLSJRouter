@@ -1,0 +1,6 @@
+framework module RYLSJRouter {
+  umbrella header "RYLSJRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}
